@@ -1,5 +1,7 @@
 # faithful
 
+See all [Cowerx open source tools](https://cowerx.dev/open-source/).
+
 Check whether every number, capitalized name, and product-like identifier in a short model summary appears literally in the source text. This is the deterministic gate used for [Cowerx Daily](https://cowerx.dev/daily/). A pass means the checked tokens occur in the source; it does not prove that the summary's claims are true.
 
 Install: `python3 -m pip install .` from this folder. Run: `faithful source.txt summary.json` (or `python3 -m faithful source.txt summary.json`). The JSON needs `summary` (exactly two sentences) and `why_builder_cares` (one line).
